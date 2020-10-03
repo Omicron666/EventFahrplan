@@ -30,7 +30,7 @@
 \n%s</string>
     <string name="dlg_err_connection_failed">Échec de la connexion</string>
     <string name="certificate_error_title">Le certificat n’a pas pu être ajouté.</string>
-    <string name="OK">OK</string>
+    <string name="OK">Ok</string>
     <string name="menu_item_title_share_favorites">Partager les favoris</string>
     <string name="menu_item_title_share_session">Partager l’événement</string>
     <string name="menu_item_title_navigate">Naviguer</string>
@@ -67,8 +67,7 @@
     <string name="starred_sessions">Favoris</string>
     <string name="general_settings">Général</string>
     <string name="no_favorites">Aucune conférence dans les favoris</string>
-    <string name="issues">&lt;a href=https://github.com/EventFahrplan/EventFahrplan/issues&gt;Problèmes ou demandes de fonctionnalités&lt;/a&gt;</string>
-    <string name="about_data_privacy_statement">&lt;a href=https://github.com/EventFahrplan/EventFahrplan/blob/master/DATA-PRIVACY-DE.md&gt;Déclaration de protection des données (en allemand)&lt;/a&gt;</string>
+    <string name="about_data_privacy_statement"><![CDATA[<a href="https://github.com/EventFahrplan/EventFahrplan/blob/master/DATA-PRIVACY-DE.md">Déclaration de protection des données (en allemand)</a>]]></string>
     <string name="choose_alarm_time">Choisissez l’heure du rappel</string>
     <string name="session_details_section_title_links">Liens</string>
     <string name="session_details_section_title_session_online">Événement en ligne</string>
@@ -85,7 +84,7 @@
     <string name="menu_item_title_alarms">Rappels</string>
     <string name="menu_item_title_add_to_calendar">Ajouter au programme</string>
     <string name="menu_item_title_about">Info</string>
-    <string name="schedule_parsing_error_with_version">Analyse de l’erreur pour le programme version %s</string>
+    <string name="schedule_parsing_error_with_version">Erreur de lecture pour le programme version %s</string>
     <string name="dlg_err_failed_connect_failure">Échec lors de la connexion pour des raisons inconnues</string>
     <string name="notifications_schedule_update_channel_description">Les mises à jour automatiques du programme peuvent être configurées via les paramètres de l’application.</string>
     <string name="trace_droid_button_title_send">Ouvrir la messagerie</string>
@@ -115,11 +114,60 @@
     <string name="trace_droid_dialog_title"> Envoi du rapport de crash du programme <xliff:g example="33C3 Schedule" id="appName">%s</xliff:g> … </string>
     <string name="schedule_changes">Changements du programme</string>
     <string name="no_changes">Aucun changement dans le programme</string>
-    <string name="schedule_parsing_error_generic">Erreur inconnue lors de l’analyse du programme</string>
+    <string name="schedule_parsing_error_generic">Erreur inconnue lors de la lecture du programme</string>
     <string name="schedule_updated">Le programme a été mis à jour.</string>
-    <string name="progress_processing_data">Traitement du programme …</string>
+    <string name="progress_processing_data">Traitement du programme  &#8230;</string>
     <string name="schedule_changes_dialog_updated_to_text">"Le programme a été mis à jour "</string>
     <string name="uptodate">Le programme est à jour.</string>
     <string name="dlg_err_failed_not_found">URL du programme invalide</string>
-    <string name="progress_loading_data">Obtention du programme …</string>
+    <string name="progress_loading_data">Récupération du programme  &#8230;</string>
+    <string name="placeholder_session_title">Attaque matérielle, exploitatation avancé de ARM, bidouillage Android</string>
+    <string name="placeholder_session_subtitle">Discussion de la recherche récente, démonstration en direct de techniques</string>
+    <string name="placeholder_session_track">Sécurité et sûreté</string>
+    <string name="placeholder_session_abstract">Dans cette conférence (qui a été donnée en partie à Infiltrate 2013 et NoSuchCon 2013), nous parlerons de nos recherches récentes qui sont intégrées dans notre cours d\'exploitation pratique de ARM (épuisé à Blackhat cette année et l\'année dernière) sur Linux et Android (pour les applications embarquées et les appareils mobiles). Nous ferons également une démonstration de ces techniques et discuterons de la manière dont nous avons pu les découvrir en utilisant plusieurs plateformes de développement de matériel ARM que nous avons construites sur mesure. Le cas échéant, nous discuterons également de l\'exploitation de ARM en relation avec Android, comme nous l\'avons écrit dans l\'Android Hackers Handbook, dont nous sommes co-auteurs et qui sera publié en octobre 2013.</string>
+    <string name="preference_title_app_notification_settings">Personnaliser les notifications…</string>
+    <string name="preference_summary_engelsystem_json_export_url"><![CDATA[Afin de voir vos créneaux de service, veuillez entrer votre URL <u>personnel</u>ici.<br /><br />
+         1. Connectez-vous à votre compte Engelsystem.<br />
+         2. Copiez l'URL derrière le bouton <u>JSON Export</u> sur votre page de profil.<br />
+         3. Collez l'URL ici.<br /><br />
+ Les créneaux de service avant et après les principaux jours de conférence <u>ne</u> sont <u>pas</u> affichés.]]></string>
+    <string name="preference_url_type_friendly_name_engelsystem_json_export">Engelsystem</string>
+    <string name="menu_item_title_share_session_text">en tant que texte</string>
+    <string name="menu_item_title_share_session_json">en tant que JSON (pour Chaosflix)</string>
+    <string name="share_as_text">Partager en tant que texte</string>
+    <string name="share_as_json">Partager en tant que JSON (pour Chaosflix)</string>
+    <string name="dlg_err_failed_http_cleartext_not_permitted">HTTP n\'est pas autorisé. Veuillez utiliser HTTPS.</string>
+    <string name="engelsystem_shifts_parsing_error_generic">Erreur inconnue pendant la lecture des créneaux Engelsystem</string>
+    <string name="engelsystem_shifts_parsing_error_forbidden">Clé API invalide pour les créneaux Engelsystem</string>
+    <string name="engelsystem_shifts_parsing_error_not_found">Mauvaise URL pour les créneaux Engelsystem</string>
+    <string name="session_list_item_language_portuguese_content_description">Portugais</string>
+    <string name="session_list_item_language_german_content_description">Allemand</string>
+    <string name="session_list_item_language_english_content_description">Anglais</string>
+    <string name="session_list_item_language_unknown_content_description">Langue inconnue</string>
+    <string name="session_list_item_language_undefined_content_description">Langue : <xliff:g example="es" id="language_abbreviation">%s</xliff:g></string>
+    <string name="session_list_item_language_removed_content_description">L\'information de langue a été enlevée</string>
+    <string name="session_list_item_no_video_content_description">Sans enregistrement vidéo</string>
+    <string name="session_list_item_video_content_description">Avec enregistrement vidéo</string>
+    <string name="session_list_item_without_video_content_description">Sans enregistrement vidéo</string>
+    <string name="validation_error_invalid_url">URL invalide <xliff:g example="Engelsystem" id="urlType">%s</xliff:g>.</string>
+    <string name="validation_error_url_without_query">URL <xliff:g example="Engelsystem" id="urlType">%s</xliff:g> sans la partie requête.</string>
+    <string name="validation_error_url_with_incomplete_query">URL <xliff:g example="Engelsystem" id="urlType">%s</xliff:g> avec partie requête incomplète.</string>
+    <string name="validation_error_url_without_api_key">URL <xliff:g example="Engelsystem" id="urlType">%s</xliff:g> sans clé API.</string>
+    <string name="placeholder_session_day">Aujourd\'hui</string>
+    <string name="placeholder_session_start_time">17:15</string>
+    <string name="placeholder_session_duration">240 min.</string>
+    <string name="placeholder_session_room">Village:Königlich Bayerisches Amtsvillage</string>
+    <string name="placeholder_schedule_time">09:15</string>
+    <string name="placeholder_alarm_minutes">5</string>
+    <string name="placeholder_alarm_time">12/28/13 5:10 PM</string>
+    <string name="placeholder_session_date">12/28/13 5:15 PM</string>
+    <string name="placeholder_session_location">UNE TRÈS GRANDE SALLE</string>
+    <string name="placeholder_session_id">ID: 5193</string>
+    <string name="placeholder_day_separator_title">Jour 2</string>
+    <string name="placeholder_session_language">fr</string>
+    <string name="placeholder_session_online">https://events.ccc.de/congress/2013/Fahrplan/events/5193.html</string>
+    <string name="placeholder_session_links">Don\'t Stuff Beans Up Your Nose INT3.CC The Osprey (sur INT3)</string>
+    <string name="placeholder_session_speakers">Stephen A. Ridley, Ernest Ridley, Conan Ridley, Bridget Ridley, Frank Ridley</string>
+    <string name="placeholder_session_description">Enfin, nous discuterons également de certaines de nos recherches les plus récentes sur le matériel (pour faciliter ce qui précède), ce qui comprendra l\'écoute/ingénierie inverse des protocoles de bus, la démystification du débogage du matériel et l\'obtention subreptice de logiciels embarqués (micrologiciels) à l\'aide de techniques matérielles. Nous démontrerons et montrerons les outils de support utilisés et les techniques développées pour effectuer ce travail et les déployer contre les dispositifs MFI iAP d\'Apple, et les dispositifs multimédia utilisant des stack USB implémentés par les OEM. (Ce qui inclura brièvement nos expériences autour du démarrage de http://int3.cc où nous vendons une version modifiée entièrement assemblée d\'un fuzzer USB matériel).    En cours de route, nous partagerons inévitablement certaines des leçons que nous avons également apprises lors de la conception complète du matériel (à partir de zéro), de l\'écriture du micrologiciel et des applications mobiles pour un dispositif de sécurité intégré appelé Osprey dont nous détenons le brevet et dont nous avons parlé publiquement en tant qu\'évaluation de la vulnérabilité de matériel - un couteau suisse pour les chercheurs.</string>
+    <string name="issues"><![CDATA[<a href="https://github.com/EventFahrplan/EventFahrplan/issues">Problèmes ou demande de fonctionnalités</a>]]></string>
 </resources>
