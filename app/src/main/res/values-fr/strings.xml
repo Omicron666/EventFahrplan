@@ -128,8 +128,8 @@
     <string name="preference_title_app_notification_settings">Personnaliser les notifications…</string>
     <string name="preference_summary_engelsystem_json_export_url"><![CDATA[Afin de voir vos créneaux de service, veuillez entrer votre URL <u>personnel</u>ici.<br /><br />
          1. Connectez-vous à votre compte Engelsystem.<br />
-         2. Copiez l'URL derrière le bouton <u>JSON Export</u> sur votre page de profil.<br />
-         3. Collez l'URL ici.<br /><br />
+         2. Copiez l\'URL derrière le bouton <u>JSON Export</u> sur votre page de profil.<br />
+         3. Collez l\'URL ici.<br /><br />
  Les créneaux de service avant et après les principaux jours de conférence <u>ne</u> sont <u>pas</u> affichés.]]></string>
     <string name="preference_url_type_friendly_name_engelsystem_json_export">Engelsystem</string>
     <string name="menu_item_title_share_session_text">en tant que texte</string>
